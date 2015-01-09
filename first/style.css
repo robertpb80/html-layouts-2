@@ -1,0 +1,77 @@
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.top {
+	height: 150px;
+	min-width: 31.3%;
+	margin: 1%;
+	float: left;
+}
+
+.left {
+	background: #D0021B;
+}
+
+.middle {
+	background: #4A90E2;
+}
+
+.right {
+	background: #4A4A4A;
+}
+
+.copy {
+	min-height: 200px;
+	width: 100%;
+	color: black;
+}
+
+.center_left {
+	height: 300px;
+	width: 35%;
+	background: #D0021B;
+	margin: 0;
+	margin-left: 10px;
+	float: left;
+}
+
+.center_right {
+	height: 300px;
+	width: 63%;
+	background: #4A90E2;
+	margin: 0;
+	float: left;
+}
+
+.bottom_left {
+	height: 100px;
+	width: 63%;
+	background: #4A90E2;
+	margin: 0;
+	margin-left: 10px;
+	float: left;
+	margin-top: 10px;
+}
+
+.bottom_right {
+	height: 100px;
+	width: 35%;
+	background: #D0021B;
+	margin: 0;
+	float: left;
+	margin-top: 10px;
+}
+
+.nest {
+	height: 100px;
+	width: 70%;
+	background: #4A4A4A;
+	margin: auto;
+}
